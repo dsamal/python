@@ -6,4 +6,4 @@ if True==1:
 elif True==4:
     print "This is also True"
 else:
-    print "This is not True"
+    print "This is False"
