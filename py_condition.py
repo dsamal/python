@@ -1,5 +1,5 @@
 __author__ = 'DEBASISH'
-#Conditions in Python
+""" This has examples of Conditions in Python"""
 
 print "Welcome! Here we will try few conditional statements in Python"
 name = raw_input("What's your Name")
@@ -14,3 +14,13 @@ elif age < 10:
     print "Oh..", name, " is a baby"
 else:
     print "Oh..", name, "is a grown up boy"
+
+x = range(0, 10, 2)
+
+if 'a' in x:
+    print "yes"
+else:
+    print "No"
+
+if 4 in x:
+    print x

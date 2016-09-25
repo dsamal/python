@@ -1,7 +1,7 @@
 #String manipulations in Python starts from here
 print "===== String manipulations in Python starts from here ====="
 str = 'hello world'
-print'1 -', str               # 1 - prints hello world
+print'1 -', str              # 1 - prints hello world
 print'2-', str[0]            # 2 - prints h
 print'3-', str[2:]           # 3 - prints llo world
 print'4-', str[2:7]          # 4 - prints llo w
@@ -10,7 +10,7 @@ print'6-', str + " I am here"# 6 - prints hello world I am here
 print'7-', str[:2]           # 7 - prints he
 print'8-', str[-5:-3]        # 8 - prints wo
 print'9-', str[-5:8]         # 9 - prints wo
-print'10-', str[2:-4]         # 10 - prints llo w
+print'10-', str[2:-4]        # 10 - prints llo w
 print'11-', '''I am a good boy lets see '''   # 11-  prints this statement
 print'12-', "this is a test"                  # 12 - prints this statement
 
@@ -19,21 +19,21 @@ print'12-', "this is a test"                  # 12 - prints this statement
 print "===== List manipulations in Python starts from here ======"
 list = ['good', 'better', 45, 'best', 39, 50.1, 0x78, 'result']
 slist = ['bad', 'worst']
-print '1-',list          # 1 - prints whole list
-print '2-',list [0]      # 2 - prints good
-print '3-',list [2]      # 3 - prints 45
-print '4-',list [3:4]    # 4 - prints best
-print '5-',list * 2      # 5 - prints list twice
-print '6-',list + slist  # 6 - prints list and then slist
-print '7-',list [2:]     # 7 - prints 45 till end
-print '8-',list [:]      # 8 - prints whole list
-print '9-',list [:2]     # 9 - prints good, better
-print '10-',list [4:-3]   # 10 - prints 39
-print '11-',list [-6:-2]  # 11 - prints 45 best 39 50.1
-print '12-',list [-6: 5]  # 12 - prints 45 best 39
-print '13-',list [-7:-3]  # 13 - prints better 45 best 39
-print '14-',list [-3: 6]  # 14 - prints 50.1
-print '15-',list [:-8]    # 15 - prints nothing
+print '1-', list          # 1 - prints whole list
+print '2-', list [0]      # 2 - prints good
+print '3-', list [2]      # 3 - prints 45
+print '4-', list [3:4]    # 4 - prints best
+print '5-', list * 2      # 5 - prints list twice
+print '6-', list + slist  # 6 - prints list and then slist
+print '7-', list [2:]     # 7 - prints 45 till end
+print '8-', list [:]      # 8 - prints whole list
+print '9-', list [:2]     # 9 - prints good, better
+print '10-', list [4:-3]   # 10 - prints 39
+print '11-', list [-6:-2]  # 11 - prints 45 best 39 50.1
+print '12-', list [-6: 5]  # 12 - prints 45 best 39
+print '13-', list [-7:-3]  # 13 - prints better 45 best 39
+print '14-', list [-3: 6]  # 14 - prints 50.1
+print '15-', list [:-8]    # 15 - prints nothing
 for index in range(len(list)):
     print 'Current Value is ', list[index]
 
